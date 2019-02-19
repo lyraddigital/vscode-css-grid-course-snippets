@@ -1,0 +1,81 @@
+{
+    "Chat Application Main Container CSS": {
+        "prefix": "ld-cg-chat-app-chat-container-styles",
+        "body": [
+            "#chat-container {",
+            "\tmin-width: 800px;",
+            "\tmax-width: 1000px;",
+            "\tmax-height: 800px;",
+            "\twidth: 100%;",
+            "\theight: 95vh;",
+            "\tbackground: #FFF;",
+            "\tborder-radius: 10px;",
+            "}"
+        ]
+    },
+
+    "Chat Application Main Container Sections CSS": {
+        "prefix": "ld-cg-chat-app-chat-container-sections-css",
+        "body": [
+            "#search-container,",
+            "#conversation-list,",
+            "#new-message-container {",
+            "\tbackground: #0048AA;",
+            "}",
+            "",
+            "#search-container {",
+            "\tborder-radius: 10px 0 0 0;",
+            "\tbox-shadow: 0 1px 3px -1px rgba(0,0,0,0.75);",
+            "\tz-index: 1;",
+            "}",
+            "",
+            "#new-message-container {",
+            "\tborder-top: 1px solid rgba(0,0,0,0.25);",
+            "\tborder-radius: 0 0 0 10px;",
+            "}",
+            "",
+            "#chat-title,",
+            "#chat-form {",
+            "\tbackground: #eee;",
+            "}",
+            "",
+            "#chat-title {",
+            "\tcolor: #0048AA;",
+            "\tfont-weight: bold;",
+            "\tfont-size: 2.0rem;",
+            "\tborder-radius: 0 10px 0 0;",
+            "\tbox-shadow: 0 1px 3px -1px rgba(0,0,0,0.75);",
+            "}",
+            "",
+            "#chat-form {",
+            "\tborder-radius: 0 0 10px 0;",
+            "\tborder-top: 1px solid rgba(0,0,0,0.25);",
+            "}"
+        ]
+    },
+
+    "Chat Application Search Conversation Input CSS": {
+        "prefix": "ld-cg-chat-app-search-conversation-input-css",
+        "body": [
+            "#search-container input {",
+            "\tcolor: #eee;",
+            "\toutline: none;",
+            "\tfont-weight: bold;",
+            "\tborder-radius: 2px;",
+            "\theight: 30px;",
+            "\tborder: 0;",
+            "\tpadding-left: 48px;",
+            "\tpadding-right: 20px;",
+            "\tfont-size: 1.4rem;",
+            "\tbackground: url('../images/search/search.svg') no-repeat rgba(255, 255, 255, 0.3);",
+            "\tbackground-position: 15px center;",
+            "\tbackground-size: 20px 20px;",
+            "}",
+            "",
+            "#search-container input::placeholder {",
+            "\tcolor: #ddd;",
+            "\tfont-weight: bold;",
+            "}"
+        ]
+    }
+}
