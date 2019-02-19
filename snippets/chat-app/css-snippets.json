@@ -77,5 +77,17 @@
             "\tfont-weight: bold;",
             "}"
         ]
+    },
+    "Chat Application Add New Conversation Button CSS": {
+        "prefix": "ld-cg-chat-app-new-conversation-button-css",
+        "body": [
+            "#new-message-container a {",
+            "\tbackground: #eee;",
+            "\tborder-radius: 100%;",
+            "\tcolor: #002C88;",
+            "\ttext-decoration: none;",
+            "\tfont-size: 3.6rem;",
+            "}"
+        ]
     }
 }
