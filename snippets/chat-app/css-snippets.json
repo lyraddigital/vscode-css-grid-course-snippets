@@ -78,6 +78,7 @@
             "}"
         ]
     },
+
     "Chat Application Add New Conversation Button CSS": {
         "prefix": "ld-cg-chat-app-new-conversation-button-css",
         "body": [
@@ -87,6 +88,16 @@
             "\tcolor: #002C88;",
             "\ttext-decoration: none;",
             "\tfont-size: 3.6rem;",
+            "}"
+        ]
+    },
+
+    "Chat Application Trash Logo CSS": {
+        "prefix": "ld-cg-chat-app-trash-logo-css",
+        "body": [
+            ".trash-logo {",
+            "\tstroke: #0048AA;",
+            "\tcursor: pointer;",
             "}"
         ]
     }
