@@ -100,5 +100,73 @@
             "\tcursor: pointer;",
             "}"
         ]
+    }, 
+
+    "Chat Application Chat Form CSS": {
+        "prefix": "ld-cg-chat-app-chat-form-css",
+        "body": [
+            "#attachment-logo {",
+            "\tcursor: pointer;",
+            "\tfill:#0048AA;",
+            "}",
+            "",
+            "#chat-form input {",
+            "\toutline: none;",
+            "\tpadding: 15px;",
+            "\tborder: 2px solid #ddd;",
+            "\tcolor: #330;",
+            "\tborder-radius: 6px;",
+            "\tfont-size: 1.4rem;",
+            "}"
+        ]
+    },
+
+    "Chat Application Conversation Item CSS": {
+        "prefix": "ld-cg-chat-app-conversation-item-css",
+        "body": [
+            ".conversation {",
+            "\tcolor: #ddd;",
+            "\tfont-size: 1.3rem;",
+            "\tborder-bottom: 1px solid #002C88;",
+            "\tpadding: 20px 20px 20px 15px;",
+            "}",
+            "",
+            ".conversation.active,",
+            ".conversation:hover {",
+            "\tbackground: #002C88;",
+            "}",
+            "",
+            ".conversation:hover {",
+            "\tcursor: pointer;",
+            "}",
+            "",
+            ".conversation > img {",
+            "\theight: 40px;",
+            "\tborder-radius: 100%;",
+            "}",
+            "",
+            ".title-text {",
+            "\tfont-weight: bold;",
+            "\tcolor: #eee;",
+            "}",
+            "",
+            ".created-date {",
+            "\tcolor: #ddd;",
+            "\twhite-space: nowrap;",
+            "\tfont-size: 1rem;",
+            "}"
+        ]
+    },
+
+    "Chat Application Conversation Item Message CSS": {
+        "prefix": "ld-cg-chat-app-conversation-item-message-css",
+        "body": [
+            ".conversation-message {",
+            "\tpadding-left: 5px;",
+            "\twhite-space: nowrap;",
+            "\toverflow-x: hidden;",
+            "\ttext-overflow: ellipsis;",
+            "}"
+        ]
     }
 }
