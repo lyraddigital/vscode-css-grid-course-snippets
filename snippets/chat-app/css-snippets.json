@@ -1,6 +1,6 @@
 {
-    "Chat Application Main Container CSS": {
-        "prefix": "ld-cg-chat-app-chat-container-styles",
+	"Chat Application Main Container CSS": {
+        "prefix": "ld-gc-app-chat-container-styles",
         "body": [
             "#chat-container {",
             "\tmin-width: 800px;",
@@ -14,8 +14,8 @@
         ]
     },
 
-    "Chat Application Main Container Sections CSS": {
-        "prefix": "ld-cg-chat-app-chat-container-sections-css",
+    "Chat Application Sections Basic CSS": {
+        "prefix": "ld-gc-app-chat-sections-styles",
         "body": [
             "#search-container,",
             "#conversation-list,",
@@ -54,8 +54,8 @@
         ]
     },
 
-    "Chat Application Search Conversation Input CSS": {
-        "prefix": "ld-cg-chat-app-search-conversation-input-css",
+    "Chat Application Search Conversation CSS": {
+        "prefix": "ld-gc-app-chat-search-container-styles",
         "body": [
             "#search-container input {",
             "\tcolor: #eee;",
@@ -79,8 +79,8 @@
         ]
     },
 
-    "Chat Application Add New Conversation Button CSS": {
-        "prefix": "ld-cg-chat-app-new-conversation-button-css",
+    "Chat Application New Conversation Section CSS": {
+        "prefix": "ld-gc-app-chat-new-conversation-styles",
         "body": [
             "#new-message-container a {",
             "\tbackground: #eee;",
@@ -92,24 +92,18 @@
         ]
     },
 
-    "Chat Application Trash Logo CSS": {
-        "prefix": "ld-cg-chat-app-trash-logo-css",
+    "Chat Application Chat Title Styles": {
+        "prefix": "ld-gc-app-chat-title-styles",
         "body": [
-            ".trash-logo {",
-            "\tstroke: #0048AA;",
+            "#chat-title > img {",
             "\tcursor: pointer;",
             "}"
         ]
-    }, 
+    },
 
-    "Chat Application Chat Form CSS": {
-        "prefix": "ld-cg-chat-app-chat-form-css",
+    "Chat Application Chat Form Styles": {
+        "prefix": "ld-gc-app-chat-form-styles",
         "body": [
-            "#attachment-logo {",
-            "\tcursor: pointer;",
-            "\tfill:#0048AA;",
-            "}",
-            "",
             "#chat-form input {",
             "\toutline: none;",
             "\tpadding: 15px;",
@@ -121,8 +115,8 @@
         ]
     },
 
-    "Chat Application Conversation Item CSS": {
-        "prefix": "ld-cg-chat-app-conversation-item-css",
+    "Chat Application Conversation Item Styles": {
+        "prefix": "ld-gc-app-chat-conversation-styles",
         "body": [
             ".conversation {",
             "\tcolor: #ddd;",
@@ -158,14 +152,45 @@
         ]
     },
 
-    "Chat Application Conversation Item Message CSS": {
-        "prefix": "ld-cg-chat-app-conversation-item-message-css",
+    "Chat Application Webkit Scrollbar Fix": {
+        "prefix": "ld-gc-app-chat-webkit-scrollbar-fix",
         "body": [
-            ".conversation-message {",
-            "\tpadding-left: 5px;",
-            "\twhite-space: nowrap;",
-            "\toverflow-x: hidden;",
-            "\ttext-overflow: ellipsis;",
+            "::-webkit-scrollbar {",
+            "\tdisplay: none;",
+            "}"
+        ]
+    },
+
+    "Chat Application Message Styles": {
+        "prefix": "ld-gc-app-chat-message-styles",
+        "body": [
+            ".message-row {",
+            "\tmargin-bottom: 20px;",
+            "}",
+            "",
+            ".message-time {",
+            "\tfont-size: 1.3rem;",
+            "\tcolor: #777;",
+            "}",
+            "",
+            ".message-text {",
+            "\tpadding: 9px 14px;",
+            "\tfont-size: 1.6rem;",
+            "\tmargin-bottom: 5px;",
+            "}",
+            "",
+            ".you-message .message-text {",
+            "\tbackground: #0048AA;",
+            "\tcolor: #eee;",
+            "\tborder: 1px solid #0048AA;",
+            "\tborder-radius: 14px 14px 0 14px;",
+            "}",
+            "",
+            ".other-message .message-text {",
+            "\tbackground: #eee;",
+            "\tcolor: #111;",
+            "\tborder: 1px solid #ddd;",
+            "\tborder-radius: 14px 14px 14px 0;",
             "}"
         ]
     }

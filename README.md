@@ -10,7 +10,7 @@ To use the course snippets, open a HTML or CSS file, and start typing `ld-cg-`, 
 
 ## Chat Application Code Snippets
 
-Below is the list of all the snippets in this extension. Each prefix starts with `ld-cg-chat-app`, which indicates it's part of the Lyrad Digital Flexbox Course chat application example.
+Below is the list of all the snippets in this extension. Each prefix starts with `ld-cg-app-chat`, which indicates it's part of the Lyrad Digital CSS Grid Course chat application example.
 
 | Prefix | Video | Description |
 |-------------- | ----------- |------------- |
