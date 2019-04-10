@@ -193,5 +193,14 @@
             "\tborder-radius: 14px 14px 14px 0;",
             "}"
         ]
+    },
+
+    "Chat Application Message Thumbnail Styles": {
+        "prefix": "ld-gc-app-chat-message-thumbnail-styles",
+        "body": [
+            ".message-row img {",
+            "\tborder-radius: 100%;",
+            "}"
+        ]
     }
 }
