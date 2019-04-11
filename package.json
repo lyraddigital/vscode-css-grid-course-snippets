@@ -22,8 +22,16 @@
                 "path": "./snippets/chat-app/html-snippets.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/video-app/html-snippets.json"
+            },
+            {
                 "language": "css",
                 "path": "./snippets/chat-app/css-snippets.json"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/video-app/css-snippets.json"
             }
         ]
     }
