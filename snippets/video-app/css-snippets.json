@@ -211,5 +211,220 @@
             "\tcolor: rgba(17, 17, 17, 0.6);",
             "}"
         ]
+    },
+
+    "YouTube Clone Comment Heading CSS": {
+        "prefix": "ld-gc-app-ytc-comment-heading-styles",
+        "body": [
+            "#video-comments h2 {",
+            "\tfont-weight: bold;",            
+            "}",
+            "",
+            "#comment-uptick,",
+            "#comment-list-container {",
+            "\tdisplay: none;",            
+            "}"
+        ]
+    },
+
+    "YouTube Clone Comment Form CSS": {
+        "prefix": "ld-gc-app-ytc-comment-form-styles",
+        "body": [
+            "#comment-form {",
+            "\tmargin-top: 16px;",
+            "\tpadding: 12px;",
+            "\tborder-bottom: 1px solid rgba(136, 136, 136, 0.4);",            
+            "}",
+            "",
+            "#comment-form img {",
+            "\twidth: 48px;",
+            "\theight: 48px;",
+            "\tborder-radius: 100%;",            
+            "}",
+            "",
+            "#comment-form textarea {",
+            "\tpadding: 6px;",
+            "\toutline: none;",
+            "\tcolor: #111;",
+            "\tfont-size: 1.4rem;",
+            "\tresize: vertical;",
+            "\tborder: 1px solid rgba(135, 135, 135, 0.4);",
+            "}",
+            "",
+            "#comment-form textarea::placeholder {",
+            "\tcolor: rgba(135, 135, 135, 0.4);",
+            "}"
+        ]
+    },
+
+    "YouTube Clone Individual Comment CSS": {
+        "prefix": "ld-gc-app-ytc-comment-styles",
+        "body": [
+            ".comment {",
+            "\tpadding: 12px;",
+            "\tfont-size: 1.1rem;",
+            "\tcolor: rgba(17,17,17, 0.6);", 
+            "\tborder-bottom: 1px solid rgba(135, 135, 135, 0.4);", 
+            "}",
+            "",
+            ".comment:last-of-type {",
+            "\tborder-bottom: none;",          
+            "}",
+            "",
+            ".comment > a {",
+            "\tfont-size: 1.4rem;",
+            "\tcolor: #1a599c;",
+            "}",
+            "",
+            ".my-comment > a > span {",
+            "\tbackground: #1a599c;",
+            "\tcolor: #fff;",
+            "\tborder-radius: 8px;",
+            "\tpadding: 1px 6px;",
+            "\tdisplay: inline-block;",
+            "}",
+            "",
+            ".comment > p {",
+            "\tcolor: #000;",
+            "\tfont-size: 1.3rem;",
+            "\tmargin: 4px 0;",
+            "}",
+            "",
+            ".comment-status-separator {",
+            "\tfont-size: 2rem;",
+            "\tline-height: 1.1rem;",
+            "}",
+            "",
+            ".comment-statistics > img {",
+            "\tmargin-left: 8px;",
+            "\twidth: 11px;",
+            "\theight: 10px;",
+            "}"
+        ]
+    },
+
+    "YouTube Clone Response Button CSS": {
+        "prefix": "ld-gc-app-ytc-response-button-styles",
+        "body": [
+            ".see-response-container > button {",
+            "\tbackground: transparent;",
+            "\tborder: none;",
+            "\ttext-transform: uppercase;",
+            "\toutline: none;",
+            "\tfont-size: 1.4rem;",
+            "\tcolor: #1a599c;",
+            "\tcursor: pointer;",
+            "\tpadding: 10px 8px;",
+            "}",
+            "",
+            ".response-list {",
+            "\tdisplay: none;",
+            "}"
+        ]
+    },
+
+    "YouTube Clone Response Button Script": {
+        "prefix": "ld-gc-app-ytc-response-button-script",
+        "body": [
+            "const seeReponseButtons = document.querySelectorAll('.see-response-container button');",
+            "",
+            "seeReponseButtons.forEach(button => {",
+            "\tbutton.addEventListener('click', () => {",
+            "\t\tconst container = button.parentElement;",
+            "\t\tconst responseList = container.nextElementSibling;",
+            "",
+            "\t\tcontainer.style.display = 'none';",
+            "\t\tresponseList.style.display = 'block';",
+            "\t});",
+            "});"
+        ]
+    },
+
+    "YouTube Clone Response CSS": {
+        "prefix": "ld-gc-app-ytc-response-styles",
+        "body": [
+            ".response {",
+            "\tmargin-bottom: 15px;",
+            "\tpadding: 0;",
+            "\tborder-bottom: 0;",
+            "}",
+            "",
+            ".response > img {",
+            "\twidth: 26px;",
+            "\theight: 26px;",
+            "}"
+        ]
+    },
+
+    "YouTube Clone Related Videos Mobile Landscape CSS": {
+        "prefix": "ld-gc-app-ytc-related-videos-mobile-landscape-styles",
+        "body": [
+            "@media (min-width: 550px) {",
+            "\t#related-videos > ul {",
+            "\t\tpadding-left: 8px;",
+            "\t\tpadding-right: 8px;",
+            "\t}",
+            "",
+            "\t#related-videos > ul > li article {",
+            "\t\tmin-height: inherit;",
+            "\t\tmax-height: inherit;",
+            "\t}",
+            "",
+            "\t#related-videos > ul > li img {",
+            "\t\theight: 26.6vw;",
+            "\t\tmin-height: 141px;",
+            "\t\tmax-height: 202px;",
+            "\t}",
+            "",
+            "\t.related-video-details h4 {",
+            "\t\tpadding-top: 4px;",
+            "\t}",
+            "}"
+        ]
+    },
+
+    "YouTube Clone Related Videos Tablet Portrait CSS": {
+        "prefix": "ld-gc-app-ytc-related-videos-tablet-portrait-styles",
+        "body": [
+            "@media (min-width: 768px) {",
+            "\t#related-videos > ul > li img {",
+            "\t\theight: 17.5vw;",
+            "\t\tmin-height: 131px;",
+            "\t\tmax-height: inherit;",
+            "\t}",
+            "}"
+        ]
+    },
+
+    "YouTube Clone Related Videos Tablet Landscape CSS": {
+        "prefix": "ld-gc-app-ytc-related-videos-tablet-landscape-styles",
+        "body": [
+            "@media (min-width: 800px) and (orientation: landscape) {",
+            "\t#related-videos {",
+            "\t\tpadding-left: 8px;",
+            "\t\tpadding-right: 8px;",
+            "\t}",
+            "",
+            "\t#related-videos > ul {",
+            "\t\tpadding-left: 0;",
+            "\t\tpadding-right: 0;",  
+            "\t}",
+            "",
+            "\t#related-videos > ul > li img {",
+            "\t\theight: 135px;",
+            "\t\tmin-height: inherit;",
+            "\t\tmax-height: inherit;",   
+            "\t}",
+            "}"
+        ]
+    },
+
+    "YouTube Clone Related Videos Large Device Landscape CSS": {
+        "prefix": "ld-gc-app-ytc-related-videos-large-landscape-styles",
+        "body": [
+            "@media (min-width: 1280px) and (orientation: landscape) {",
+            "",
+            "}"
+        ]
     }
 }
