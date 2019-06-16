@@ -323,23 +323,6 @@
         ]
     },
 
-    "YouTube Clone Response Button Script": {
-        "prefix": "ld-gc-app-ytc-response-button-script",
-        "body": [
-            "const seeReponseButtons = document.querySelectorAll('.see-response-container button');",
-            "",
-            "seeReponseButtons.forEach(button => {",
-            "\tbutton.addEventListener('click', () => {",
-            "\t\tconst container = button.parentElement;",
-            "\t\tconst responseList = container.nextElementSibling;",
-            "",
-            "\t\tcontainer.style.display = 'none';",
-            "\t\tresponseList.style.display = 'block';",
-            "\t});",
-            "});"
-        ]
-    },
-
     "YouTube Clone Response CSS": {
         "prefix": "ld-gc-app-ytc-response-styles",
         "body": [

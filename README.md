@@ -29,7 +29,7 @@ Below is the list of all the snippets in this extension. Each prefix starts with
 
 ## Uber Eats Clone Code Snippets
 
-Below is the list of all the snippets in this extension. Each prefix starts with `ld-gc-app-uec`, which indicates it's part of the uber eats clone application example.
+Below is the list of all the snippets in this extension. Each prefix starts with `ld-gc-app-uec`, which indicates it's part of the Uber Eats clone application example.
 
 | Prefix | Video | Description |
 |-------------- | ----------- |------------- |
@@ -44,6 +44,35 @@ Below is the list of all the snippets in this extension. Each prefix starts with
 |`ld-gc-app-uec-tablet-portrait-styles` | Dealing with the store list on tablet | Media query for tablet in portrait mode with padding |
 |`ld-gc-app-uec-large-tablet-styles` | Dealing with the store list on larger devices | Media query for tablet devices in landscape mode |
 |`ld-gc-app-uec-very-large-device-styles` | Adding the delivery widget to the top bar | CSS to style the delivery widget when in the top bar |
+
+## YouTube Clone Code Snippets
+
+Below is the list of all the snippets in this extension. Each prefix starts with `ld-gc-app-ytc`, which indicates it's part of the YouTube clone application example.
+
+| Prefix | Video | Description |
+|-------------- | ----------- |------------- |
+|`ld-gc-app-ytc-top-bar-styles`| Building the top bar | CSS to style the contents of the top bar |
+|`ld-gc-app-ytc-thumbnail-styles` | Building the thumbnail | CSS to style the image thumbnail of the main video |
+|`ld-gc-app-ytc-video-title-styles` | Building the video title and views | CSS to style the video title section |
+|`ld-gc-app-ytc-social-icon-styles` | Building the social interaction section | CSS to style the social media section |
+|`ld-gc-app-ytc-channel-detail-styles` | Building the channel details section | CSS to style the channel details section |
+|`ld-gc-app-ytc-autoplay-styles`| Building the related videos autoplay section | CSS to style the autoplay button etc |
+|`ld-gc-app-ytc-related-video-list-styles`| Building out the related videos | CSS to style an individual related video |
+|`ld-gc-app-ytc-remaining-related-videos-html`| Building out the related videos | HTML to represent the rest of the related videos |
+|`ld-gc-app-ytc-comment-heading-styles`| Building the comments heading section | CSS to style the comments heading and the toggle buttons |
+|`ld-gc-app-ytc-comment-heading-script`| Building the comments heading section | A snippet of javascript that toggles the display of comments etc |
+|`ld-gc-app-ytc-comment-form-styles`| Building the add comment form | CSS to style the comment form |
+|`ld-gc-app-ytc-comment-styles`| Building out a list of comments | CSS to style an individual comment |
+|`ld-gc-app-ytc-remaining-comments-html`| Building out a list of comments | HTML to represent the rest of the comments |
+|`ld-gc-app-ytc-response-button-styles`| Building out the see response button | CSS to style the 'See Responses' button and the response list |
+|`ld-gc-app-ytc-response-button-script`| Building out the see response button | A snippet of javascript that fires when the 'See Responses' button is clicked |
+|`ld-gc-app-ytc-response-styles`| Adding the responses | CSS to style an individual response |
+|`ld-gc-app-ytc-responses-html`| Adding the responses | HTML to represent the rest of the responses |
+|`ld-gc-app-ytc-related-videos-mobile-landscape-styles`| Building related videos in landscape mode for mobile | Basic styling for the related videos when we are using a mobile in landscape mode |
+|`ld-gc-app-ytc-related-videos-tablet-portrait-styles`| Building related videos in portrait mode for tablet | Basic styling for the related videos when we are using a tablet in portrait mode |
+|`ld-gc-app-ytc-related-videos-tablet-portrait-styles`| Building related videos in portrait mode for tablet | Basic styling for the related videos when we are using a tablet in portrait mode |
+|`ld-gc-app-ytc-related-videos-tablet-landscape-styles`| Building related videos in landscape mode for tablet | Basic styling for the related videos when we are using a tablet in landscape mode |
+|`ld-gc-app-ytc-related-videos-large-landscape-styles`| Building related videos on large devices | Basic styling for the related videos when we are using a large device in landscape mode |
 
 -----------------------------------------------------------------------------------------------------------
 
