@@ -2,7 +2,7 @@
 
 Visual Studio Code extension that contains all snippets used in Lyrad Digital's "Mastering CSS Grid" course.
 
-![Gif](https://i.imgur.com/35g6HNk.gifv)
+![Gif](https://i.imgur.com/35g6HNk.gif)
 
 ## Usage
 
