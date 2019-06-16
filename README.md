@@ -58,7 +58,7 @@ Below is the list of all the snippets in this extension. Each prefix starts with
 |`ld-gc-app-ytc-channel-detail-styles` | Building the channel details section | CSS to style the channel details section |
 |`ld-gc-app-ytc-autoplay-styles`| Building the related videos autoplay section | CSS to style the autoplay button etc |
 |`ld-gc-app-ytc-related-video-list-styles`| Building out the related videos | CSS to style an individual related video |
-|`ld-gc-app-ytc-remaining-related-videos-html`| Building out the related videos | HTML to represent the rest of the related videos |
+|`ld-gc-app-ytc-remaining-related-video-html`| Building out the related videos | HTML to represent the rest of the related videos |
 |`ld-gc-app-ytc-comment-heading-styles`| Building the comments heading section | CSS to style the comments heading and the toggle buttons |
 |`ld-gc-app-ytc-comment-heading-script`| Building the comments heading section | A snippet of javascript that toggles the display of comments etc |
 |`ld-gc-app-ytc-comment-form-styles`| Building the add comment form | CSS to style the comment form |

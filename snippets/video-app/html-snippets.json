@@ -1,6 +1,6 @@
 {
     "YouTube Clone Remaining Related Videos HTML": {
-        "prefix": "ld-gc-app-ytc-remaining-related-videos-html",
+        "prefix": "ld-gc-app-ytc-remaining-related-video-html",
         "body": [
             "<li>",
             "\t<a href=\"#\" title=\"Lets learn Bootstrap\">",
