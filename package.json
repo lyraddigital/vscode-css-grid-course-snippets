@@ -2,7 +2,7 @@
     "name": "ld-gc-snippets",
     "displayName": "Mastering CSS Grid - Course Snippets",
     "description": "Snippets for the Mastering CSS Grid Course",
-    "publisher": "Lyrad Digital",
+    "publisher": "Lyrad",
     "repository": {
         "type": "git",
         "url": "https://github.com/lyraddigital/vscode-css-grid-course-snippets"
