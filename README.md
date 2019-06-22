@@ -8,9 +8,21 @@ Visual Studio Code extension that contains all snippets used in Lyrad Digital's 
 
 To use the course snippets, open a HTML or CSS file, and start typing `ld-gc-`, followed by pressing Ctrl+Space. A list of snippets will show up
 
+## Simple Examples Code Snippets
+
+Below is the list of all the snippets in this extension that relates to the simple examples in this course. Each prefix starts with `ld-gc-se`.
+
+| Prefix | Video | Description |
+|-------------- | ----------- |------------- |
+|`ld-gc-se-four-column-layout-styles`| Building a 4 column layout | CSS for the basic styling of the 4 columns and it's container |
+|`ld-gc-se-side-bar-styles`| Building a sidebar | CSS for the basic styling of side bar content |
+|`ld-gc-se-centering-modal-dialog-styles`| Centering a modal dialog | CSS for the basic styling of modal and it's content |
+|`ld-gc-se-sticky-footer-styles`| Creating a sticky footer | CSS for the header, footer and main content area in the layout |
+|`ld-gc-se-formatted-form-styles`| Basic form formatting | CSS for the basic styling of the form and it's fields and inputs |
+
 ## Chat Application Code Snippets
 
-Below is the list of all the snippets in this extension. Each prefix starts with `ld-gc-app-chat`, which indicates it's part of the chat application example.
+Below is the list of all the snippets in this extension that relates to the chat application example. Each prefix starts with `ld-gc-app-chat`.
 
 | Prefix | Video | Description |
 |-------------- | ----------- |------------- |
@@ -29,7 +41,7 @@ Below is the list of all the snippets in this extension. Each prefix starts with
 
 ## Uber Eats Clone Code Snippets
 
-Below is the list of all the snippets in this extension. Each prefix starts with `ld-gc-app-uec`, which indicates it's part of the Uber Eats clone application example.
+Below is the list of all the snippets in this extension that relates to the Uber Eats clone application. Each prefix starts with `ld-gc-app-uec`.
 
 | Prefix | Video | Description |
 |-------------- | ----------- |------------- |
@@ -47,7 +59,7 @@ Below is the list of all the snippets in this extension. Each prefix starts with
 
 ## YouTube Clone Code Snippets
 
-Below is the list of all the snippets in this extension. Each prefix starts with `ld-gc-app-ytc`, which indicates it's part of the YouTube clone application example.
+Below is the list of all the snippets in this extension that relates to the YouTube clone application. Each prefix starts with `ld-gc-app-ytc`.
 
 | Prefix | Video | Description |
 |-------------- | ----------- |------------- |
@@ -81,5 +93,9 @@ Below is the list of all the snippets in this extension. Each prefix starts with
 ### 1.0.0
 #### Added
 - Initial release to add all snippets for the sample applications in this course.
+
+### 1.0.1
+#### Added
+- Snippets for all the examples shown in this course.
 
 -----------------------------------------------------------------------------------------------------------
