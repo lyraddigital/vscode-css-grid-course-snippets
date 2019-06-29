@@ -35,6 +35,10 @@
             },
             {
                 "language": "css",
+                "path": "./snippets/advanced-examples/css-snippets.json"
+            },
+            {
+                "language": "css",
                 "path": "./snippets/chat-app/css-snippets.json"
             },
             {

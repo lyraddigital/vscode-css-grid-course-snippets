@@ -20,6 +20,14 @@ Below is the list of all the snippets in this extension that relates to the simp
 |`ld-gc-se-sticky-footer-styles`| Creating a sticky footer | CSS for the header, footer and main content area in the layout |
 |`ld-gc-se-formatted-form-styles`| Basic form formatting | CSS for the basic styling of the form and it's fields and inputs |
 
+## Advanced Examples Code Snippets
+
+Below is the list of all the snippets in this extension that relates to the advanced examples in this course. Each prefix starts with `ld-gc-ae`.
+
+| Prefix | Video | Description |
+|-------------- | ----------- |------------- |
+|`ld-gc-ae-holy-grail-styles`| The Holygrail layout | CSS for the basic styling of the content in the Holygrail layout |
+
 ## Chat Application Code Snippets
 
 Below is the list of all the snippets in this extension that relates to the chat application example. Each prefix starts with `ld-gc-app-chat`.

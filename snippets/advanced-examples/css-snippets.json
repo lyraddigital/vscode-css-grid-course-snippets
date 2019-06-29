@@ -1,0 +1,24 @@
+{
+    "Holy Grail Example Basic Styles": {
+        "prefix": "ld-gc-ae-holy-grail-styles",
+        "body": [
+            "h1 {",
+            "\tfont-size: 1.6rem;",
+            "\tfont-weight: normal;",
+            "}",
+            "",
+            "#holygrail-container {",
+            "\tbackground: #FFF;",
+            "\theight: 100%;",
+            "\tmin-width: 400px;",
+            "\tmin-height: 270px;",
+            "}",
+            "",
+            "header, footer, nav, aside, section {",
+            "\tpadding: 20px;",
+            "\tborder: 1px solid #000;",
+            "\ttext-align: center;",
+            "}"
+        ]
+    }
+}
