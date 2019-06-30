@@ -27,6 +27,8 @@ Below is the list of all the snippets in this extension that relates to the adva
 | Prefix | Video | Description |
 |-------------- | ----------- |------------- |
 |`ld-gc-ae-holy-grail-styles`| The Holygrail layout | CSS for the basic styling of the content in the Holygrail layout |
+|`ld-gc-ae-media-objects-layout-styles`| The Media Objects layout | CSS for the basic styling the media item and it's comments |
+|`ld-gc-ae-monthly-calendar-styles`| A Monthly Calendar | CSS for the basic styling of the calendar |
 
 ## Chat Application Code Snippets
 
