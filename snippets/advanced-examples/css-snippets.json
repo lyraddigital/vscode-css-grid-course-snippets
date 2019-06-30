@@ -29,6 +29,8 @@
             "\tbackground: #0048AA;",
             "\tcolor: #FFF;",
             "\tpadding: 15px;",
+            "\twidth: 100%;",
+            "\tmax-width: 600px;",
             "\tmargin-bottom: 40px;",
             "\tbox-sizing: border-box;",
             "}",
