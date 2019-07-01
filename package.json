@@ -19,6 +19,10 @@
         "snippets": [
             {
                 "language": "html",
+                "path": "./snippets/advanced-examples/html-snippets.json"
+            },
+            {
+                "language": "html",
                 "path": "./snippets/chat-app/html-snippets.json"
             },
             {

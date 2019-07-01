@@ -29,6 +29,7 @@ Below is the list of all the snippets in this extension that relates to the adva
 |`ld-gc-ae-holy-grail-styles`| The Holygrail layout | CSS for the basic styling of the content in the Holygrail layout |
 |`ld-gc-ae-media-objects-layout-styles`| The Media Objects layout | CSS for the basic styling the media item and it's comments |
 |`ld-gc-ae-monthly-calendar-styles`| A Monthly Calendar | CSS for the basic styling of the calendar |
+|`ld-gc-ae-twitter-layout-feed-html`| A Twitter Responsive Layout | HTML for the feed text to make the feed really long |
 
 ## Chat Application Code Snippets
 
