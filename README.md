@@ -30,6 +30,11 @@ Below is the list of all the snippets in this extension that relates to the adva
 |`ld-gc-ae-media-objects-layout-styles`| The Media Objects layout | CSS for the basic styling the media item and it's comments |
 |`ld-gc-ae-monthly-calendar-styles`| A Monthly Calendar | CSS for the basic styling of the calendar |
 |`ld-gc-ae-twitter-layout-feed-html`| A Twitter Responsive Layout | HTML for the feed text to make the feed really long |
+|`ld-gc-ae-movie-gallery-mobile-shell-styles`| A Responsive Movie Gallery Part 1 | CSS for building the basic shell for the mobile layout |
+|`ld-gc-ae-movie-gallery-article-styles`| A Responsive Movie Gallery Part 1 | CSS for styling an individual movie |
+|`ld-gc-ae-movie-gallery-remaining-articles-html`| A Responsive Movie Gallery Part 1 | HTML for the rest of the movies in the gallery |
+|`ld-gc-ae-remaining-styles-for-single-row-layout`| A Responsive Movie Gallery Part 1 | CSS for styling the rest of the single row based layout |
+|`ld-gc-ae-ipad-grid-layout`| A Responsive Movie Gallery Part 2 | CSS for styling the application for display on iPad or larger in landscape mode |
 
 ## Chat Application Code Snippets
 
