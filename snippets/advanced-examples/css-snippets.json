@@ -195,7 +195,7 @@
     },
 
     "Movie Gallery Remaining CSS for Single Row Layout": {
-        "prefix": "ld-gc-ae-remaining-styles-for-single-row-layout",
+        "prefix": "ld-gc-ae-movie-gallery-remaining-styles-for-single-row-layout",
         "body": [
             "::-webkit-scrollbar {",
             "\tdisplay: none;",
