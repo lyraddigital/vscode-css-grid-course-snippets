@@ -275,7 +275,7 @@
     },
 
     "Movie Gallery iPad Grid Layout": {
-        "prefix": "ld-gc-ae-ipad-grid-layout",
+        "prefix": "ld-gc-ae-movie-gallery-ipad-grid-layout",
         "body": [
             "@media (orientation: landscape) and (min-width: 1024px) {",
             "\th1 {",

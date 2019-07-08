@@ -34,7 +34,7 @@ Below is the list of all the snippets in this extension that relates to the adva
 |`ld-gc-ae-movie-gallery-article-styles`| A Responsive Movie Gallery | CSS for styling an individual movie |
 |`ld-gc-ae-movie-gallery-remaining-articles-html`| A Responsive Movie Gallery Continued | HTML for the rest of the movies in the gallery |
 |`ld-gc-ae-movie-gallery-remaining-styles-for-single-row-layout`| A Responsive Movie Gallery Continued | CSS for styling the rest of the single row based layout |
-|`ld-gc-ae-ipad-grid-layout`| A Responsive Movie Gallery Finale | CSS for styling the application for display on iPad or larger in landscape mode |
+|`ld-gc-ae-movie-gallery-ipad-grid-layout`| A Responsive Movie Gallery Finale | CSS for styling the application for display on iPad or larger in landscape mode |
 
 ## Chat Application Code Snippets
 
