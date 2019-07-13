@@ -1,21 +1,4 @@
 {
-    "Animated Sidebar Script": {
-        "prefix": "ld-gc-ae-animated-sidebar-script",
-        "body": [
-          "<script>",
-          "\tconst mainElement = document.querySelector('main');",
-          "\tconst hamburgerMenu = document.querySelector('#hamburger-menu');",
-          "\tconst closeMenu = document.querySelector('#close-menu');",
-          "\tconst toggleNavBar = () => {",
-          "\t\tmainElement.classList.toggle('opened-nav');",
-          "\t};",
-          "",
-          "\thamburgerMenu.addEventListener('click', toggleNavBar, false);",
-          "\tcloseMenu.addEventListener('click', toggleNavBar, false);",
-          "</script>"
-        ]
-    },
-
     "Twitter Layout Feed HTML": {
         "prefix": "ld-gc-ae-twitter-layout-feed-html",
         "body": [
