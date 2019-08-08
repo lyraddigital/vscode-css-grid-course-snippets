@@ -8,7 +8,7 @@
         "url": "https://github.com/lyraddigital/vscode-css-grid-course-snippets"
     },
     "icon": "logo.png",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.30.0"
     },

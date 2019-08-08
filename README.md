@@ -98,7 +98,6 @@ Below is the list of all the snippets in this extension that relates to the YouT
 |`ld-gc-app-ytc-responses-html`| Adding the responses | HTML to represent the rest of the responses |
 |`ld-gc-app-ytc-related-videos-mobile-landscape-styles`| Building related videos in landscape mode for mobile | Basic styling for the related videos when we are using a mobile in landscape mode |
 |`ld-gc-app-ytc-related-videos-tablet-portrait-styles`| Building related videos in portrait mode for tablet | Basic styling for the related videos when we are using a tablet in portrait mode |
-|`ld-gc-app-ytc-related-videos-tablet-portrait-styles`| Building related videos in portrait mode for tablet | Basic styling for the related videos when we are using a tablet in portrait mode |
 |`ld-gc-app-ytc-related-videos-tablet-landscape-styles`| Building related videos in landscape mode for tablet | Basic styling for the related videos when we are using a tablet in landscape mode |
 |`ld-gc-app-ytc-related-videos-large-landscape-styles`| Building related videos on large devices | Basic styling for the related videos when we are using a large device in landscape mode |
 
@@ -113,5 +112,9 @@ Below is the list of all the snippets in this extension that relates to the YouT
 ### 1.0.1
 #### Added
 - Snippets for all the examples shown in this course.
+
+### 1.0.2
+#### Changed
+- Removed redundant snippet in README.md file
 
 -----------------------------------------------------------------------------------------------------------
